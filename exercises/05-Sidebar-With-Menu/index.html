@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
+		<link type="text/css" rel="stylesheet" href="styles.css" />
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -13,6 +14,31 @@
 	</head>
 
 	<body>
-		<!-- your code here, rememeber to wrap everything into a container-fluid -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3 pt-5">
+					<nav class="nav flex-column bg-light">
+						<a class="nav-link active" href="#">Home</a>
+						<a class="nav-link" href="#">Profile</a>
+						<a class="nav-link" href="#">Mesagges</a>
+					</nav>
+				</div>
+
+				<div class="col-9 pt-5 right">
+					<div class="jumbotron bg-secondary p-3">
+						<h1 class="display-4">Hello!</h1>
+						<p class="lead">
+							<strong>
+								I´m excited to use bootstrap because now I don´t have to fight with CSS anymore, I made this layout in 20 minutes and
+								before bootstrap it took me 2hrs easy!
+							</strong>
+						</p>
+						<p class="lead">
+							<a class="btn btn-primary btn-lg" href="#" role="button">Click me!!</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

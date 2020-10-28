@@ -1,0 +1,12 @@
+body {
+	background-color: blue;
+}
+
+a.nav-link {
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+nav-link active {
+	padding: 10px;
+}
